@@ -23,7 +23,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "10.0"
   spec.swift_version = "5.2"
 
-  spec.source        = { :git => "https://github.com/chizhavko/PinUnit.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/chizhavko/PinUnit.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "PinUnit/**/*.{h,m,swift}"
 
 end
